@@ -2,6 +2,67 @@
  THEME - Default
 ******************************************************************/
 
+body {
+    color: $color__foreground;
+}
+
+a {
+    color: $color__primary;
+
+    &:visited {
+        color: $color__primary;
+    }
+
+    &:hover,
+    &:focus {
+        color: darken($color__primary,10%);
+    }
+}
+
+.main-navigation {
+    text-transform: uppercase;
+}
+
+#colophon {
+    .bottom-navigation {
+        background-color: $color__foreground;
+        color: $color__white;
+        a {
+            color: $color__white;
+
+            &:visited,
+            &:hover,
+            &:focus {
+                color: $color__white;
+            }
+        }
+    }
+    .copyright {
+        background-color: $color__primary;
+        color: $color__foreground;
+    }
+
+}
+
+
+.header-widget-wrap {}
+
+.footer-widgets {}
+
+.copyright {}
+
+// Widget colors
+#secondary.sidebar .widget {}
+
+.content-widgets,
+.footer-widgets {
+    .widget {
+        
+        .widget-title {}
+
+        .wrap {}
+    }
+}
 
 .post {
     .meta {}
@@ -45,26 +106,4 @@
 .logged-in {}                     /* if user is logged in */
 .paged {}                         /* paged items like search results or archives */
     .paged-1 {}                     /* individual paged (i.e. body.paged-3) */
-
-
-// Widget colors
-#secondary.sidebar .widget {}
-
-
-
-.content-widgets,
-.footer-widgets {
-    .widget {
-        
-        .widget-title {}
-
-        .wrap {}
-    }
-}
-
-.header-widget-wrap {}
-
-.footer-widgets {}
-
-.copyright {}
 

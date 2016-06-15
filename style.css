@@ -4,7 +4,7 @@ Theme URI: https://github.com/glocalcoop/anp-network-main-usfwc
 Author: Pea, Glocal
 Author URI: http://glocal.coop
 Description: Child theme starter for ANP main network site
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: anp-network-main-usfwc
@@ -16,8 +16,13 @@ Tags:
 # Utilities
 --------------------------------------------------------------*/
 /**
- * Color variables
+ * Uncomment and change as desired.
  */
+/**
+ * Can be replaced with another color palette
+ * See: theme directory for sample palettes
+ */
+/* Social Media - http://www.paulund.co.uk/social-media-colours */
 /**
  * Elements
  */
@@ -51,75 +56,15 @@ Tags:
 # Widgets
 --------------------------------------------------------------*/
 a {
-  color: #509EA3; }
+  color: #3dada7; }
   a:hover, a:focus {
-    color: #2e5c5f; }
+    color: #308783; }
   a:visited {
-    color: #2e5c5f; }
+    color: #3dada7; }
 
 /*--------------------------------------------------------------
 # Structure
 --------------------------------------------------------------*/
-
-/* Footer */
-#colophon .footer-widgets {
-    background-color: #1D1D1B;
-}
-
-#colophon .footer-widgets .wrap {
-    background-color: transparent;
-    border-bottom-width: 0;
-    border-top-width: 0;
-}
-
-#colophon .footer-widgets .widget h3 {
-	  color: #fff;
-}
-
-#colophon .footer-widgets a {
-	  color: #fff;
-}
-
-#colophon .footer-widgets a:hover {
-	  color: #fff;
-}
-
-#colophon .footer-widgets a:focus {
-	  color: #fff;
-}
-
-#colophon .footer-widgets a:visited {
-	  color: #fff;
-}
-
-#colophon .footer-widgets p {
-	  color: #fff;
-}
-
-#colophon .bottom-navigation {
-    background-color: #1D1D1B;
-}
-
-#colophon .bottom-navigation a {
-	color: #A8C399;
-}
-
-#colophon .bottom-navigation a:hover {
-	color: #A8C399;
-}
-
-#colophon .bottom-navigation a:visited {
-	color: #A8C399;
-}
-
-#colophon .bottom-navigation a:focus {
-	color: #A8C399;
-}
-
-#colophon .copyright {
-    color: #1D1D1B;
-}
-
 /*--------------------------------------------------------------
 # Pages
 --------------------------------------------------------------*/
@@ -138,6 +83,31 @@ a {
 /******************************************************************
  THEME - Default
 ******************************************************************/
+body {
+  color: #1d1d1b; }
+
+a {
+  color: #a8c399; }
+  a:visited {
+    color: #a8c399; }
+  a:hover, a:focus {
+    color: #8db079; }
+
+.main-navigation {
+  text-transform: uppercase; }
+
+#colophon .bottom-navigation {
+  background-color: #1d1d1b;
+  color: #fff; }
+  #colophon .bottom-navigation a {
+    color: #fff; }
+    #colophon .bottom-navigation a:visited, #colophon .bottom-navigation a:hover, #colophon .bottom-navigation a:focus {
+      color: #fff; }
+
+#colophon .copyright {
+  background-color: #a8c399;
+  color: #1d1d1b; }
+
 /* for sites that are read right to left (i.e. hebrew) */
 /* home page */
 /* blog template page */
@@ -180,3 +150,4 @@ a {
  * Stylesheet reserved just for your hacky code
  * http://csswizardry.com/2013/04/shame-css/
  */
+/* Footer */
