@@ -31,6 +31,7 @@ Activist Network USFWC Theme includes support for Jetpack's Infinite Scroll and 
 
 = 1.0.3 - June 16, 2016 =
 * [Feature 1442#note-4]Modified footer widget background color and text color to match color scheme (black background, white text)
+* Removed home page promo styles, which will be added to custom CSS instead
 
 = 1.0.2 - June 15, 2016 =
 * Fixed parent/child enqueue

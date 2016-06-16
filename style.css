@@ -65,33 +65,6 @@ a {
 .home .entry.intro-content {
   border-width: 0; }
 
-.home .so-widget-sow-image h2 {
-  margin: 0;
-  padding: 0;
-  font-weight: bold; }
-
-.home .conference-promo {
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 300px;
-  min-height: 75px;
-  background-position: center top;
-  background-size: 100%; }
-  .home .conference-promo .textwidget {
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute !important;
-    width: 1px;
-    /* many screen reader and browser combinations announce broken words as they would appear visually */
-    word-wrap: normal !important; }
-
-@media screen and (min-width: 768px) {
-  .home .conference-promo {
-    height: 113px;
-    max-width: 420px; } }
-
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
