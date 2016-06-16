@@ -7,21 +7,31 @@ body {
 }
 
 a {
-    color: $color__primary;
+    color: $color__link;
 
     &:visited {
-        color: $color__primary;
+        color: $color__link;
     }
 
     &:hover,
     &:focus {
-        color: darken($color__primary,10%);
+        color: $color__link-hover;
     }
 }
 
 .main-navigation {
     text-transform: uppercase;
 }
+
+
+#masthead {
+    .menu-toggle {
+        background-color: $color__link;
+        color: $color__foreground;
+        text-transform: uppercase;
+    }    
+}
+
 
 #colophon {
     .bottom-navigation {
