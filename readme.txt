@@ -5,7 +5,7 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 
 Requires at least: 4.0
 Tested up to: 4.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,12 @@ A theme for the main site of an ANP network, based on _s with Hybrid Core and Bo
 Activist Network USFWC Theme includes support for Jetpack's Infinite Scroll and Site Logos, as well as other features.
 
 == Changelog ==
+
+= 1.0.2 - June 15, 2016 =
+* Fixed parent/child enqueue
+* Removed unneeded SASS mixins
+* Changed SASS link color vars
+* Added home page promo styles
 
 = 1.0.1 - June 15, 2016 =
 * Updated mixins and extends SASS partials
