@@ -4,7 +4,7 @@ Theme URI: https://github.com/glocalcoop/anp-network-main-usfwc
 Author: Pea, Glocal
 Author URI: http://glocal.coop
 Description: Child theme starter for ANP main network site
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: anp-network-main-usfwc
@@ -125,17 +125,28 @@ a {
   color: #1d1d1b;
   text-transform: uppercase; }
 
-#colophon .bottom-navigation {
+#colophon .bottom-navigation,
+#colophon .footer-widgets {
   background-color: #1d1d1b;
   color: #fff; }
-  #colophon .bottom-navigation a {
+  #colophon .bottom-navigation a,
+  #colophon .footer-widgets a {
     color: #fff; }
-    #colophon .bottom-navigation a:visited, #colophon .bottom-navigation a:hover, #colophon .bottom-navigation a:focus {
+    #colophon .bottom-navigation a:visited, #colophon .bottom-navigation a:hover, #colophon .bottom-navigation a:focus,
+    #colophon .footer-widgets a:visited,
+    #colophon .footer-widgets a:hover,
+    #colophon .footer-widgets a:focus {
       color: #fff; }
+
+#colophon .footer-widgets .wrap {
+  background-color: transparent; }
 
 #colophon .copyright {
   background-color: #a8c399;
   color: #1d1d1b; }
+
+#colophon .widget ul li:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
 /* for sites that are read right to left (i.e. hebrew) */
 /* home page */

@@ -34,7 +34,9 @@ a {
 
 
 #colophon {
-    .bottom-navigation {
+
+    .bottom-navigation,
+    .footer-widgets {
         background-color: $color__foreground;
         color: $color__white;
         a {
@@ -47,13 +49,20 @@ a {
             }
         }
     }
+    .footer-widgets {
+        .wrap {
+            background-color: $color__background;
+        }
+    }
     .copyright {
         background-color: $color__primary;
         color: $color__foreground;
     }
+    .widget ul li:not(:last-child) {
+        border-bottom: 1px solid rgba($color__white, 0.1);
+    }
 
 }
-
 
 .header-widget-wrap {}
 
